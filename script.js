@@ -8,6 +8,9 @@ var points = 0;
 var message = document.getElementById("winner");
 var bouton = document.getElementById("reset");
 
+picture.style.top = Math.floor(Math.random() * spaceH) + "px";
+picture.style.left = Math.floor(Math.random() * spaceW) + "px";
+
 picture.addEventListener("click", ()=>{
    picture.style.top = Math.floor(Math.random() * spaceH) + "px";
    picture.style.left = Math.floor(Math.random() * spaceW) + "px";
